@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Layout } from './components/Layout'
-import { Task } from './components/Task'
+import { Wrapper } from './components/Wrapper'
+import { Tasks } from './components/Tasks'
 
 const App = () => (
-  <Layout>
-    <Task title="Juhu" text="Do this" />
-  </Layout>
+  <Wrapper>
+    <Tasks />
+  </Wrapper>
 )
 
 ReactDOM.render(<App />, document.getElementById('root'))
